@@ -78,7 +78,7 @@ export async function GET(request: NextRequest) {
     const parameters = new URLSearchParams({
       key: rawgApiKey,
       page: "1",
-      page_size: "100",
+      page_size: "40",
       dates: "2000-01-01,2030-12-31",
       ordering: "-added",
     });
